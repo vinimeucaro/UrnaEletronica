@@ -19,6 +19,8 @@ body {
     background: linear-gradient(to right, #e8e8e8, #c1c1c1);
     border: 2px solid #555;
     box-shadow: 3px 3px 0px #000;
+    display: flex;
+    flex-direction: column;
 
 }
 .teclado {
@@ -48,8 +50,8 @@ body {
     box-shadow: 3px 3px 0px #000;
 }
 .teclado--numerico {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .botao--branco {
     background-color: #fff;
@@ -72,5 +74,26 @@ body {
     width: 90px;
     height: 45px;
     box-shadow: 3px 3px 0px #226140;
+
+}
+
+
+
+.topo {
+    flex: 1;
+    display: flex;
+}
+.topo--direita {
+    flex: 1;
+}
+.topo--esquerda {
+    width: 90px;
+}
+
+.base {
+    height: 50px;
+    font-size: 15px;
+    border-top: 1px solid #000;
+    padding-left: 10px;
 
 }
