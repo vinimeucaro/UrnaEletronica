@@ -83,10 +83,25 @@ body {
     flex: 1;
     display: flex;
 }
-.topo--direita {
+.topo--esquerda {
     flex: 1;
 }
-.topo--esquerda {
+.d-1-1{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.d-1-2{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.d-1-3{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.topo--direita {
     width: 90px;
 }
 
