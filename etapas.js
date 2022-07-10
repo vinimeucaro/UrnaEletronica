@@ -42,7 +42,7 @@ let etapas = [
                 vice:'John Connor',
                 fotos:[
                     {url:'22.jpg', legenda:'Prefeito'},
-                    {url:'23.jpg', legenda:'Vice-Prefeito'}
+                    {url:'23.jpg', legenda:'Vice-Prefeito', small:true}
                 ]
             },
         ]
