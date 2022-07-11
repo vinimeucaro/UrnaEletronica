@@ -3,6 +3,19 @@ let cargo = document.querySelector('.d-1-2 span');
 let descricao = document.querySelector('.d-1-4');
 let aviso = document.querySelector('.base');
 let lateral = document.querySelector('topo--direita');
-let lateral = document.querySelector('d-1-3');
+let numeros = document.querySelector('d-1-3');
 
-//process
+function clicou(n) {
+    alert("Clicou em "+n);
+}
+function branco() {
+    alert("Clicou em BRANCO!");
+}
+function corrige() {
+    alert("Clicou em CORRIGE!");
+}
+function confirma() {
+    alert("Clicou em CONFIRMA!");
+}
+
+//in Process
