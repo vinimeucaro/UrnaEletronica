@@ -4,3 +4,5 @@ let descricao = document.querySelector('.d-1-4');
 let aviso = document.querySelector('.base');
 let lateral = document.querySelector('topo--direita');
 let lateral = document.querySelector('d-1-3');
+
+//process
