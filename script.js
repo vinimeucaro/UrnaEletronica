@@ -1,9 +1,22 @@
-let SeuVotoPara = document.querySelector('.d-1-1 span');
+let seuVotoPara = document.querySelector('.d-1-1 span');
 let cargo = document.querySelector('.d-1-2 span');
 let descricao = document.querySelector('.d-1-4');
 let aviso = document.querySelector('.base');
 let lateral = document.querySelector('topo--direita');
 let numeros = document.querySelector('d-1-3');
+
+let etapaAtual = 0;
+
+function comecarEtapa() {
+    let etapa = etapas[etapaAtual];
+
+    seuVotoPara.style.display = 'none';
+    cargo.innerHTML = etapa.titulo;
+    descricao.innerHTML = '';
+    aviso.style.display = 'none';
+    lateral.innerHTML = '';
+    numeros.innerHTML = numeroHtml;
+}
 
 function clicou(n) {
     alert("Clicou em "+n);
@@ -17,5 +30,7 @@ function corrige() {
 function confirma() {
     alert("Clicou em CONFIRMA!");
 }
+
+comecarEtapa();
 
 //in Process
