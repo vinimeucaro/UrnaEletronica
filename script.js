@@ -33,4 +33,4 @@ function confirma() {
 
 comecarEtapa();
 
-//in Process
+//function comecarEtapa error
